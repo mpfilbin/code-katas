@@ -1,0 +1,25 @@
+{
+  "name": "FizzBuzz",
+  "version": "0.0.1",
+  "description": "A JavaScript implementation of the FizzBuzz game.",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R list fizzbuzz.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Aspenware/code-katas.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Code-Kata"
+  ],
+  "author": "Mike Filbin",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Aspenware/code-katas/issues"
+  },
+  "dependencies": {
+    "mocha": "~1.12.0"
+  }
+}
