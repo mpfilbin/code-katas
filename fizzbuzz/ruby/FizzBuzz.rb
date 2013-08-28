@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'minitest/autorun'
 
 describe 'FizzBuzzCalc' do
