@@ -6,8 +6,8 @@ This project is dedicated to recording code Katas implemented in several langagu
 ## Current Katas
 
  1. FizzBuzz
- 
- 
+ 2. Leap Year
+
  ## Languages
     1. Python
     2. Ruby
