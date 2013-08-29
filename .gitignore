@@ -1,5 +1,8 @@
 .idea
 .idea/*
+/fizzbuzz/java/FizzBuzz/nbproject/private/
+/fizzbuzz/java/FizzBuzz/build/
+/fizzbuzz/java/FizzBuzz/dist/
 node_modules
 nbproject
 nbproject/*
