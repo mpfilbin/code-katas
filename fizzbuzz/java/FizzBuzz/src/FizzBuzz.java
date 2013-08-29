@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author l.adams
@@ -13,9 +8,18 @@ public class FizzBuzz {
     }
     public String FizzBuzzCalc(int value) {
         String result = String.valueOf(value);
-        if(value % 3 == 0)
+        
+        if (value % 15 == 0)
+        {
+            result = "Fizz Buzz";
+        }
+        else if(value % 3 == 0)
         {
             result = "Fizz";
+        }
+        else if(value % 5 == 0)
+        {
+            result = "Buzz";
         }
         return result;
     }

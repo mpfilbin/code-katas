@@ -63,4 +63,18 @@ public class FizzBuzzTest {
         String result = fizzBuzz.FizzBuzzCalc(6);
         Assert.assertEquals("Fizz", result);
     }
+    
+    @Test
+    public void passingInFiveShouldReturnBuzz()
+    {
+        String result = fizzBuzz.FizzBuzzCalc(5);
+        Assert.assertEquals("Buzz", result);
+    }
+    
+    @Test
+    public void passingInFifteenShouldReturnFizzBuzz()
+    {
+        String result = fizzBuzz.FizzBuzzCalc(15);
+        Assert.assertEquals("Fizz Buzz", result);
+    }
 }
