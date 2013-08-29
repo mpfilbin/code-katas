@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__).'/simpletest/autorun.php');
+require_once(dirname(__FILE__).'/../../lib/php/simpletest/autorun.php');
 
 class FizzBuzzTest extends UnitTestCase{
   function testRequiresOneArgument(){
