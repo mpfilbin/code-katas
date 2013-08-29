@@ -14,3 +14,4 @@ This project is dedicated to recording code Katas implemented in several langagu
     3. JavaScript
     4. Java
     5. C#
+    6. PHP
