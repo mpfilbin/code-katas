@@ -4,12 +4,8 @@
  */
 
 import junit.framework.Assert;
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -21,22 +17,9 @@ public class FizzBuzzTest {
     public FizzBuzzTest() {
     }
     
-    @BeforeClass
-    public static void setUpClass() {
-        
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
     @Before
     public void setUp() {
         fizzBuzz = new FizzBuzz();
-    }
-    
-    @After
-    public void tearDown() {
     }
 
     @Test
