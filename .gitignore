@@ -4,3 +4,5 @@
 /fizzbuzz/java/FizzBuzz/build/
 /fizzbuzz/java/FizzBuzz/dist/
 node_modules
+nbproject
+nbproject/*
