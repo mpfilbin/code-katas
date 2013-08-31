@@ -49,19 +49,34 @@ public class FizzBuzz
     {
         var output = value.ToString();
 
-        if (value % 15 == 0)
+        if (IsFizzBuzz(value))
         {
             output = "Fizz Buzz";
         }
-        else if (value % 3 == 0)
+        else if (IsFizz(value))
         {
             output = "Fizz";
         }
-        else if (value % 5 == 0)
+        else if (IsBuzz(value))
         {
             output = "Buzz";
         }
 
         return output;
+    }
+
+    private static bool IsFizzBuzz(int value)
+    {
+        return value % 15 == 0;
+    }
+
+    private static bool IsBuzz(int value)
+    {
+        return value % 5 == 0;
+    }
+
+    private static bool IsFizz(int value)
+    {
+        return value % 3 == 0;
     }
 }
