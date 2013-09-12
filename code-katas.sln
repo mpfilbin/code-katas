@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "fizzbuzz\c-shar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "leapyear\c-sharp\LeapYear.csproj", "{44466442-7F64-40AE-9B49-41A85A5BC834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalc", "stringcalc\StringCalc.csproj", "{1B3A2DCF-09F8-48D7-955E-351087FB2A02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalc", "stringcalc\c-sharp\StringCalc.csproj", "{1B3A2DCF-09F8-48D7-955E-351087FB2A02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
