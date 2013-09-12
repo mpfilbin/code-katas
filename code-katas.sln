@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "fizzbuzz\c-sharp\FizzBuzz.csproj", "{6B754A87-CAEF-4DED-B9FE-06A8548150C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "leapyear\c-sharp\LeapYear.csproj", "{44466442-7F64-40AE-9B49-41A85A5BC834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalc", "stringcalc\StringCalc.csproj", "{1B3A2DCF-09F8-48D7-955E-351087FB2A02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{44466442-7F64-40AE-9B49-41A85A5BC834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44466442-7F64-40AE-9B49-41A85A5BC834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44466442-7F64-40AE-9B49-41A85A5BC834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3A2DCF-09F8-48D7-955E-351087FB2A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3A2DCF-09F8-48D7-955E-351087FB2A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3A2DCF-09F8-48D7-955E-351087FB2A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3A2DCF-09F8-48D7-955E-351087FB2A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
