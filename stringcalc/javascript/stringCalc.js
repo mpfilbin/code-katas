@@ -1,6 +1,6 @@
 module.exports = {
 	add: function(input){
-		result = 0;
+		var result = 0;
 		if (input && input.length) {
 			var pieces  = input.split(",");
 			pieces = pieces.map(function(piece){
