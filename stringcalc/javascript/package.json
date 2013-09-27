@@ -1,0 +1,32 @@
+{
+  "name": "StringCalc-JavaScript",
+  "version": "0.0.0",
+  "description": "The JavaScript implementation of the String Calc code kata",
+  "main": "stringcalc.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mpfilbin/code-katas.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Code",
+    "Kata",
+    "Code",
+    "Kata"
+  ],
+  "author": "Michael Filbin",
+  "license": "Whatever",
+  "bugs": {
+    "url": "https://github.com/mpfilbin/code-katas/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "should": "~1.3.0"
+  }
+}
